@@ -14,7 +14,7 @@ async function Header() {
   return (
     <div className="flex fixed w-[calc(100%-280px)] flex-1 z-10">
       <div className=" bg-[#FEFAF7] py-4 pl-4  w-[calc(100%-380px)]   ">
-        <div className="flex justify-between   w-full ">
+        <div className="flex justify-between   w-full items-center ">
           <h2 className="text-[#111C43] font-medium text-[18px]">Dashboard</h2>
 
           <div className="bg-white cursor-pointer border border-[#0D112666] flex gap-2 items-center rounded-full py-1.5 px-2 h-[40px]">

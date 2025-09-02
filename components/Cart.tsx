@@ -20,9 +20,9 @@ export default function Cart({ cart, setCart }: { cart: any[]; setCart: any }) {
       const res = await createSale(saleData);
 
       console.log(res.message)
-    //   alert(
-    //     res.message ? "Sale created successfully: " + res.message : "checkout is empty!"
-    //   );
+      alert(
+        res.message ? "Sale created successfully: " + res.message : "checkout is empty!"
+      );
       setCart([]); // empty cart after checkout
     } catch (err) {
       alert("Error creating sale");
